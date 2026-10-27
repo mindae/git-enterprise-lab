@@ -1,1 +1,3 @@
 Release version 1.0
+Feature A planned
+Feature B planned
