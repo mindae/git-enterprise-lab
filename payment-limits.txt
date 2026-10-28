@@ -1,0 +1,2 @@
+PAY-105: Introduce payment transaction limits
+Maximum daily limit: 50000
