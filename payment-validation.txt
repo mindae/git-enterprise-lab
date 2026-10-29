@@ -1,0 +1,1 @@
+PAY-104: Validate payment currency
