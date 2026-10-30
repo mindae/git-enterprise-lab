@@ -1,0 +1,20 @@
+name: PR Validation
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate payment documentation
+        run: |
+          test -s release.txt
+          test -s payment.txt
+          test -s payment-validation.txt
+          echo "All payment documentation checks passed"
