@@ -17,4 +17,5 @@ jobs:
           test -s release.txt
           test -s payment.txt
           test -s payment-validation.txt
+          test -s nonexistent-file.txt
           echo "All payment documentation checks passed"
