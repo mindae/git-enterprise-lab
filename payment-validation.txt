@@ -1,1 +1,3 @@
 PAY-104: Validate payment currency
+
+PAY-301 HOTFIX: Reject unsupported payment currencies during validation.
